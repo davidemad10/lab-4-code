@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Ex6.css">
+</head>
+<body>
+    <div class="registration-container">
+        <form id="registrationForm" >
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your Name:" required>
+            <span id="nameError" class="error-message"></span>            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="Cairo">Cairo</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Aswan">Aswan</option>
+                <option value="Portsaid">Portsaid</option>
+                <option value="Ismilia">Ismilia</option>
+            </select>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="repeatPassword">Repeat Password:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword" required>
+            <span id="passwordError" class="error-message"></span>
+            <label>
+                <input type="checkbox" id="terms" name="terms" required> I accept the terms and conditions
+            </label>
+            <button type="submit" id="registerButton">Register</button>
+        </form>
+    </div>
+    <script src="Ex6.js"></script>
+</body>
+</html>

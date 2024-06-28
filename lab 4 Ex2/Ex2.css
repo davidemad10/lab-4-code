@@ -1,0 +1,17 @@
+.color-container {
+    margin-bottom: 20px;
+}
+
+.color-container span {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
